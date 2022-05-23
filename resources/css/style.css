@@ -1,0 +1,171 @@
+/*Universal Styles */
+html,body{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    /*background-color: #FBFBFB;*/
+    background-color: #E6C2BF;
+}
+main{
+    position: relative;
+    top: 5rem;
+}
+.center{
+    text-align: center;
+}
+.italic{
+    font-style: italic;
+}
+
+/*Header*/
+header{
+    width: 100%;
+    background-color: #FAD02C;
+    position: fixed;
+    z-index: 99;
+}
+header .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+.logo-container img{
+    width: 100%;
+    height: 3rem;
+    display: block;
+}
+
+header nav ul{
+    display: flex;
+    padding-right: 1rem;
+}
+header nav ul li{
+    padding-left: 3rem;
+}
+header nav ul li a{
+    text-decoration: none;
+    color:#282120;
+}
+
+/*Banner*/
+.banner-section{
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center 32%;
+    height: 40rem;
+}
+.banner-section .content{
+    font-family: 'Satisfy', cursive;
+    font-size: 5rem;
+    padding-top: 10rem;
+    color: #FDFDFD;
+    text-shadow: 1px 1px 3px #282120 ;
+}
+
+/*Services*/
+.services-section{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 5% 0 5%;
+    flex-wrap: wrap;
+
+}
+.service{
+    padding: 2rem 2rem 4rem 2rem;
+    background-color: #FDFDFD;
+}
+.service .image-container img{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 25rem;
+}
+.service .content{
+    padding-top:1rem;
+}
+.service .content h2{
+    font-size: 1.325rem;
+    color:#282120;
+}
+
+/* Who We Are?*/
+.who-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 3rem;
+    padding: 1rem 5% 4rem 5%;
+}
+.employees{
+    display: flex;
+    flex-direction: column;
+    /*width: 50%;*/
+}
+.employee{
+    display: flex;
+    margin: 1rem 0;
+    padding: 2rem;
+    background-color: #FDFDFD;
+}
+.employee .content{
+    padding-left: .5rem;
+    padding-top: .75rem;
+}
+.employee .content h2{
+    font-size: 1.3rem;
+}
+.employees .image-container img{
+    overflow: hidden;
+    display: block;
+    height: 25rem;
+}
+
+.colloboration{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    justify-content: center;
+}
+.colloboration .image-container{
+    padding: 2rem;
+    background-color: #FDFDFD;
+}
+.colloboration .image-container img{
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    height: 35rem;
+}
+
+.colloboration .content h1{
+    font-size: 5rem;
+}
+.colloboration .content h2{
+    text-align: right;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+}
+
+/*Footer*/
+footer{
+    width: 100%;
+    background-color: #FAD02C;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .content{
+    padding-left: 1.25rem;
+}
+.social{
+   padding-right: 1.25rem;
+}
+.social img{
+    width: 1.4rem;
+    margin-left: 1.125rem;
+}
+
